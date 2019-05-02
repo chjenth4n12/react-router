@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
     return (
         <div>
-            đây là trang Contact
+            <h1>ĐÂY LÀ TRANG CONTACT</h1>
         </div>
     );
 }

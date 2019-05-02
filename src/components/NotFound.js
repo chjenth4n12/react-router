@@ -3,7 +3,7 @@ import React from 'react';
 function NotFound() {
     return (
         <h1>
-            404 - không tìm thấy trang!!! 
+            404 - không tìm thấy trang!!!
         </h1>
     );
 }

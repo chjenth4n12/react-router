@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
     return (
         <div>
-            đây là trang About
+            <h1>ĐÂY LÀ TRANG ABOUT</h1>
         </div>
     );
 }
