@@ -16,8 +16,14 @@ const Menus = [
         name : 'Contact',
         to : '/contact',
         exact : true
+    },
+    {
+        name : 'Product',
+        to : '/product',
+        exact : false
     }
 ]
+
 const MyLink = ({ label, to, activeOnlyWhenExact }) => {
     return (
         <Route
