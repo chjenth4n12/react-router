@@ -24,7 +24,7 @@ const products = [
     }
 ]
 
-var Product = ({ match }) => {
+var Product = ({ match, location }) => {
 
     var url = match.url;
 
@@ -35,6 +35,8 @@ var Product = ({ match }) => {
             </NavLink>
         );
     });
+
+    console.log(location);
 
     return (
         <div className="container">

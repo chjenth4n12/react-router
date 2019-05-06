@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import NotFound from "./components/NotFound";
 import Product from './components/Product';
+import Login from './components/Login';
+import Register from './components/Register';
 
 const routes = [
     {
@@ -24,7 +26,17 @@ const routes = [
     {
         path : '/product',
         exact : false,
-        main : ({ match }) => <Product match={match}/>
+        main : ({ match, location }) => <Product match={ match } location={ location }/>
+    },
+    {
+        path : '/login',
+        exact : true,
+        main : ({ location }) => <Login location={ location }/>
+    },
+    {
+        path : '/register',
+        exact : true,
+        main : () => <Register />
     },
     {
         path : '',

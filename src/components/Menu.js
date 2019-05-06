@@ -21,6 +21,11 @@ const Menus = [
         name : 'Product',
         to : '/product',
         exact : false
+    },
+    {
+        name : 'Login',
+        to : '/login',
+        exact : true
     }
 ]
 
